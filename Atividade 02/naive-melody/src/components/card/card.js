@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import './card.css'
-import { letters } from '../../utils/data';
 import Button from '../button/button';
 import { letterSpliter } from '../../utils/letterSpliter';
 
-export function Card() {
+export function Card({ letters }) {
   const splitedLetters = letterSpliter(letters)
   const [index, setIndex] = useState(0)
   let lines = splitedLetters[index]

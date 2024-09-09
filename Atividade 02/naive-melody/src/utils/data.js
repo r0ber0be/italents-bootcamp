@@ -1,4 +1,4 @@
-export const letters = [
+export const initialLetters = [
   { letter:"Sempre há uma forma Vejo que tem sido dificil... Mas ainda não é o fim Na verdade, este é apenas o começo Este momento é como um ponto e vírgula Uma pausa drasticamente maior que uma vírgula E infinitamente menor que um ponto final Lembre-se sempre disso Ainda não é o fim;" },
   { letter:"Nas profundezas do coração Que seria esquecido e deixado de lado Eu só não sabia Tenho medo de Não me encontrar mais No teu coração Nas profundezas do coração Que seria esquecido e deixado de lado Eu só não sabia Tenho medo de Não te encontrar mais No meu coração" },
   { letter:"Mesmo na pior das circunstâncias Continue assim Seja sempre o melhor Dê sempre o melhor Mesmo que digam que é insuficiente" },
