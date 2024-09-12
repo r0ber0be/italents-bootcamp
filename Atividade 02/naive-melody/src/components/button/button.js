@@ -1,13 +1,15 @@
-export default function Button(props) {
+import './button.css';
+
+export default function Button({ func, text, classStyle }) {
   return (
-    <div>
-      <button 
-        type='button' 
-        onClick={props.func}>
-        <strong>
-          {props.text}
-        </strong>
-      </button>
-    </div>
+    <button 
+      type='button' 
+      onClick={func}
+      className={classStyle}
+    >
+      <strong>
+        {text}
+      </strong>
+    </button>
   )
 }

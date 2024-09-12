@@ -6,7 +6,6 @@ import { letterSpliter } from '../../utils/letterSpliter';
 export function Card({ letters }) {
   const splitedLetters = letterSpliter(letters)
   const [index, setIndex] = useState(0)
-  let lines = splitedLetters[index]
 
   const next = (e) => {
     e.preventDefault()
@@ -24,13 +23,13 @@ export function Card({ letters }) {
 
   return (
     <div className='card-container'>
-      <Button func={previous} text={"<<<"}/>
+      <Button func={previous} text={"<<<"} classStyle={"go-back"} />
       <div>
-        {lines.map((l, index) => {
+        {splitedLetters[index].map((l, index) => {
           return <p key={index}>{l}</p>
         })}
       </div>
-      <Button func={next} text={">>>"}/>
+      <Button func={next} text={">>>"} classStyle={"go-back"} />
     </div>
   )
 }
