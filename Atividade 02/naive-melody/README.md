@@ -3,7 +3,7 @@ Este projeto foi criado com o intuito de mostrar o meu aprendizadoa referente ao
 
 A aplicação é bastante simples, tendo como destaque um pergaminho com uma mensagem, uma poesia, um conselho, etc. A ideia é expressar e consumir literatura através de um pergaminho. É possível avançar e voltar as mensagens clicando nos botões no canto do pergaminho. 
 
-É possível adicionar novas frases, só há uma regra: ao escrever, para quebrar a linha, é necessário escrever um espaço e em seguida uma letra maíuscula, por exemplo: "Eu vou sair daqui Ainda hoje de manhã", após adicionar essa frase, o texto será exibido da seguinte maneira:
+É possível adicionar novas frases, só há uma regra: ao escrever, para quebrar a linha, é necessário inserir um espaço em branco e em seguida uma letra maiúscula, por exemplo: "Eu vou sair daqui Ainda hoje de manhã", após adicionar essa frase, o texto será exibido da seguinte maneira:
 
 "Eu vou sair daqui  
 Ainda hoje de manhã"  

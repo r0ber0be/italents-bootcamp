@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './CardLetter.css'
 import Button from '../button/Button';
 import { letterSpliter } from '../../utils/letterSpliter';
+import { LetterList } from '../letterList/LetterList';
 
 export function CardLetter({ letters }) {
   const splitedLetters = letterSpliter(letters)
@@ -26,11 +27,7 @@ export function CardLetter({ letters }) {
   return (
     <div className='card-container'>
       <Button func={previous} text={"<<<"} classStyle={"go-back"} />
-      <div>
-        {splitedLetters[index].map((l, index) => { //Quando o indice é incrementado ou decrementado, a posição do array letters se altera, fazendo com que uma nova letter seja exibida
-          return <p key={index}>{l}</p>
-        })}
-      </div>
+      <LetterList splitedLetters={splitedLetters} index={index} />
       <Button func={next} text={">>>"} classStyle={"go-back"} />
     </div>
   )
