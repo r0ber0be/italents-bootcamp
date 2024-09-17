@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import './card.css'
-import Button from '../button/button';
+import './CardLetter.css'
+import Button from '../button/Button';
 import { letterSpliter } from '../../utils/letterSpliter';
 
-export function Card({ letters }) {
+export function CardLetter({ letters }) {
   const splitedLetters = letterSpliter(letters)
   const [index, setIndex] = useState(0)
 

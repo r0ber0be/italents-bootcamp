@@ -1,13 +1,17 @@
 import { useEffect, useState } from "react"
 
-export function InputName() {
+export function InputWelcomeName() {
+  // Inicializa name com 'meu caro' por padrão quando não houverem valores armazenados na chave 'name' no local storage
   const [name, setName] = useState(() => localStorage.getItem('name') || 'meu caro')
 
   useEffect(() => {
+    // Atualiza o valor na chave 'name' com o valor do estado atual da constante 'name'
     localStorage.setItem('name', name)
-  }, [name])
+  }, [name]) // Faz o useEffect ser disparado sempre que a constante 'name' sofre modificações
 
+  // Captura o valor no input e modifica 'name'
   const handleNameChange = (e) => {
+    e.preventDefault()
     setName(e.target.value)
   }
 
