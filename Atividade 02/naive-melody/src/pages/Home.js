@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { CardLetter } from "../components/card/CardLetter";
+import { CardLetter } from "../components/cardLetter/CardLetter";
 import PageHeader from "../components/pageHeader/PageHeader";
 import { initialLetters } from "../utils/data";
 

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './InputWelcomeName.css'
 
 export function InputWelcomeName() {
   // Inicializa name com 'meu caro' por padrão quando não houverem valores armazenados na chave 'name' no local storage
