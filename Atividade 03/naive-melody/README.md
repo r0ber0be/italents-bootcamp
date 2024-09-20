@@ -7,11 +7,13 @@ A aplicação é bastante simples, tendo como destaque um pergaminho com uma men
 É possível adicionar novas frases na página de adição de cartas! Nesta página, é possível adicionar campos de texto, onde cada campo representará uma linha no pergaminho!
 
 campo 1: "Eu vou sair daqui" 
+
 campo 2: "ainda hoje de manhã"
 
 Exibição:
 
 "Eu vou sair daqui
+
 Ainda hoje de manhã"
 
 
